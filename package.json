@@ -1,0 +1,37 @@
+{
+  "name": "speech-bookmarklet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "node_modules/.bin/webpack  --mode production --watch",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-typescript": "7.9.0",
+    "@types/jest": "25.1.4",
+    "@types/node": "13.9.8",
+    "@typescript-eslint/eslint-plugin": "2.26.0",
+    "@typescript-eslint/parser": "2.26.0",
+    "babel-loader": "8.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.1",
+    "eslint-plugin-jest": "23.8.2",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-simple-import-sort": "5.0.2",
+    "file-loader": "6.0.0",
+    "jest": "25.2.4",
+    "prettier": "2.0.2",
+    "ts-jest": "25.3.0",
+    "tsconfig-paths": "3.9.0",
+    "tsconfig-paths-jest": "0.0.1",
+    "typescript": "3.8.3",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11"
+  }
+}
